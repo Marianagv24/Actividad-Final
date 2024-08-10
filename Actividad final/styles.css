@@ -1,0 +1,129 @@
+/* styles.css */
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 8px;
+    padding-bottom: 3rem; /* Asegura espacio suficiente para el footer */
+}
+
+/* Secciones específicas */
+.trastornos-alimentacion, .anorexia, .bulimia, .preguntas, .respuestas, .sugerencias, .consejos {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #666;
+}
+
+p, li, dd {
+    line-height: 1.6;
+}
+
+img.img-centrada {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+/* styles.css */
+
+/* Sección de contacto */
+.contacto {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #e9e9e9;
+    border-radius: 8px;
+}
+
+.contacto h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contacto p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
